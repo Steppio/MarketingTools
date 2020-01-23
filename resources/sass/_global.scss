@@ -1,0 +1,44 @@
+$blue: #4c739b;
+
+.row {
+	padding-top: 30px;
+}
+h1, h3 {
+	color: #4c739b;
+}
+.navbar.navbar-inverse.bg-inverse {
+	.container {
+		> .navbar-toggler {
+			border-color: white !important;
+			background: rgba(255, 255, 255, 0.05) !important;
+		}
+		a {
+			color: white !important;
+			font-size: 1.25em;
+			letter-spacing: 0.05em;			
+		}
+	}
+	background-color: #4c739b !important;
+}
+.bg-inverse{
+	.text-muted {
+		color: white !important;
+	}
+	background-color: #4c6f9bd6 !important;
+}
+.card-body {
+	a {
+		background: #4c739b;
+    	color: white;
+    }
+    // border-right: 1px solid white !important;
+}
+.btn-group {
+	.btn.btn-sm {
+		&:hover {
+			background: white;
+    		color: #4c739b;
+    		border: 1px solid #4c739b !important;
+    	}
+	}
+}
